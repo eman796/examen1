@@ -14,15 +14,15 @@ public:
         std::string tareaCompletada = "";
         std::string fechaRegistro ="";
         char fechacom = char(250);
-        std::cout <<"Ingrese el nombre que desea ponerle a la tarea (Título)";
+        std::cout <<"Ingrese el nombre que desea ponerle a la tarea (Título)\n";
         std::cin>>titulo;
-        std::cout <<"Ingresa la descripcion de la tarea (De que trata y eso)" << std::endl;
+        std::cout <<"Ingresa la descripcion de la tarea (De que trata y eso)\n" << std::endl;
         std::cin>>desc;
-        std::cout <<"Ingrese la fecha de registro de la tarea"<< std::endl;
+        std::cout <<"Ingrese la fecha de registro de la tarea\n"<< std::endl;
         std::cin>>fechaRegistro;
-        std::cout <<"Ingrese la tarea completadas"<< std::endl;
+        std::cout <<"Ingrese la tarea completadas\n"<< std::endl;
         std::cin>>tareaCompletada;
-        std::cout <<"Ingrese la fecha en que la tarea se completó"<< std::endl;
+        std::cout <<"Ingrese la fecha en que la tarea se completó\n"<< std::endl;
         std::cin>>fechacom;
     }
 
