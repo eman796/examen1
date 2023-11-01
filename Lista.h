@@ -65,7 +65,7 @@ if (PInicial = NULL){
 } else {
     delete(PInicial);
     PInicial = PAux;
-    PAux = PInicial
+    PAux = PInicial;
 }
 }
 void Lista::ListarTodo() {
